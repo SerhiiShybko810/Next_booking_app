@@ -1,0 +1,97 @@
+.fake-disabled {
+    pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+}
+
+.spacer {
+    aspect-ratio: 900/400;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer1 {
+    background-image: url("../../public/static/svg/layer1.svg");
+}
+
+.layer2 {
+    background-image: url("../../public/static/svg/layer2.svg");
+}
+
+.layer3 {
+    background-image: url("../../public/static/svg/layer3.svg");
+}
+
+.layer4 {
+    width: calc(100%);
+    transform: rotateX(180deg);
+    overflow: hidden;
+    background-image: url("../../public/static/svg/layerblue1.svg");
+}
+
+.custom-shape-divider-top-1689603545 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-top-1689603545 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+.custom-shape-divider-top-1689603545 .shape-fill {
+    fill: #febe6b;
+}
+
+.custom-shape-divider-bottom-1689603675 {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.custom-shape-divider-bottom-1689603675 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+.custom-shape-divider-bottom-1689603675 .shape-fill {
+    fill: #febe6b;
+}
+.custom-shape-divider-bottom-1689603675 .shape-fill2 {
+    fill: #863a12;
+}
+
+.custom-shape-divider-top-1689603991 {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.custom-shape-divider-top-1689603991 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
+}
+.custom-shape-divider-top-1689603991 .shape-fill {
+    fill: #863a12;
+}
+.layer5 {
+    width: calc(100%);
+    overflow: hidden;
+    background-image: url("../../public/static/svg/layer5.svg");
+}
